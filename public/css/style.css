@@ -1,0 +1,41 @@
+* {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(64, 64, 64);
+    margin: 0;
+    padding: 0;
+}
+.BlogTx{
+    color: white;
+}
+.blogT{
+    color: white;
+}
+.BlogP{
+    width: 150px;
+    height: fit-content;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.BlogSec{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+    justify-content: center;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+}
