@@ -1,4 +1,4 @@
-<nav>
+<nav style="position: fixed;">
     <a href="/">HOME</a>
     <a href="/about">ABOUT</a>
     <a href="/contact">CONTACT</a>

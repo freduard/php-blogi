@@ -41,7 +41,7 @@ class Router {
     public function direct ( $uri, $requestType ) {
 
         if ( !array_key_exists($uri, $this->routes[$requestType]) ) {
-            throw new \Exception('No route defined for this URI.');
+            throw new \Exception("No route defined for {$uri}");
         }
         
         $this->callAction(
