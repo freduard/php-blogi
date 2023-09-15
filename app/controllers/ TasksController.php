@@ -20,7 +20,7 @@ class TasksController {
         App::get('database')->insert('tasks', [
             'title' => $_POST['title'],
             'description' => $_POST['description'],
-            'date' => $_POST['date'],
+            'date' => date('Y-m-d H:i:s'),
         ]);
         return redirect('tasks');
     }

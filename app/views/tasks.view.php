@@ -1,7 +1,5 @@
 <?php require_once('partials/head.php'); ?>
 
-<h1>Blog</h1>
-
 <div class="BlogSec">
         <?php foreach ( $tasks as $task ): ?>
             <div class="BlogP">
@@ -15,7 +13,7 @@
                         <?php endif; ?>
                         <p>Date:</p>
                     <?php if  ($task->date ): ?>
-                        <p class="BlogTx"><?= $task->date; ?></p>
+                        <p class="BlogTx"><?= date('d.m.Y H:i:s', strtotime($task->date)); ?></p>
                         <?php endif; ?>
                 </p>
                 <p><?= $task->id;?></p>

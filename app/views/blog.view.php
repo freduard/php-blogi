@@ -1,6 +1,6 @@
 <?php require_once('partials/head.php'); ?>
 
-<h1>Blog</h1>
+<h1>aaaaa</h1>
 
 <h3>Sisesta ülesanne</h3>
 <form method="POST" action="/task">
